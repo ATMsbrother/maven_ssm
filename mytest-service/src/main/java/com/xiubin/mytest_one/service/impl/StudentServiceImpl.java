@@ -18,6 +18,7 @@ import java.util.List;
 public class StudentServiceImpl implements StudentService {
     @Resource
     private StudentDao studentDao;
+
     public Boolean addStudent(Student student) {
         return studentDao.insert(student);
     }

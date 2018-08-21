@@ -57,7 +57,7 @@
 
     <!-- spring与mybatis整合配置，扫描所有dao 和所有mapper文件 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.songci.mytest_one.dao"/>
+        <property name="basePackage" value="com.xiubin.mytest_one.dao"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
     </bean>
 
@@ -83,7 +83,7 @@
     </tx:advice>
 
     <aop:config>
-        <aop:pointcut id="pc" expression="execution(public * com.songci.mytest_one.service.*.*(..))"/>
+        <aop:pointcut id="pc" expression="execution(public * com.xiubin.mytest_one.service.*.*(..))"/>
         <!--把事务控制在Service层-->
         <aop:advisor advice-ref="txAdvice" pointcut-ref="pc"/>
     </aop:config>
