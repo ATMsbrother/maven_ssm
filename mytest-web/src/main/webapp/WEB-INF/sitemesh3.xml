@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sitemesh xmlns="http://sitemesh.org/xml/config">
+    <!-- 指明满足“/*”的页面，将被“/WEB-INF/views/decorators/*”所装饰 -->
+    <!--studentDecorator.jsp就是装饰页，下文会写到-->
+    <mapping>
+        <path>/student/*</path>
+        <decorator>/WEB-INF/decorators/studentDecorator.jsp</decorator>
+    </mapping>
+    <!--将xmlns的值去掉就可以用下面这条语句了-->
+    <!--<mapping path="/student/*" decorator="/WEB-INF/decorators/studentDecorator.jsp" />-->
+    <!-- 指明满足“/exclude.jsp*”的页面，将被排除，不被装饰 -->
+    <!--<mapping path="/exclude.jsp*" exclue="true" />-->
+</sitemesh>

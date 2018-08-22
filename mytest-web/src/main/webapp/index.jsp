@@ -18,7 +18,7 @@
         // alert("获取到的studentid："+studentId);
         $.ajax({
             type:"post",
-            url:"/ssm/studentApi/findAllStudentInfo.do",
+            url:"/studentApi/findAllStudentInfo.do",
             data:{id:studentId},
             dataType:"json",
             success:function (data) {
