@@ -1,4 +1,4 @@
-package com.xiubin.mytest_one.model.utils;
+package com.xiubin.mytestone.model.utils;
 
 /**
  * @FileName

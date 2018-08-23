@@ -1,4 +1,4 @@
-package com.xiubin.mytest_one.model;
+package com.xiubin.mytestone.model;
 
 /**
  * @FileName
@@ -7,10 +7,22 @@ package com.xiubin.mytest_one.model;
  * @Description 学生类
  */
 public class Student {
+    /**
+     * id
+     */
     private Integer id;
-    private String name;//姓名
-    private Boolean sex;//性别
-    private String address;//地址
+    /**
+     * 姓名
+     */
+    private String name;
+    /**
+     * 性别
+     */
+    private Boolean sex;
+    /**
+     * 地址
+     */
+    private String address;
 
     public Integer getId() {
         return id;

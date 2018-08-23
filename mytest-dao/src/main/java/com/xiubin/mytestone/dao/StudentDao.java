@@ -1,7 +1,7 @@
-package com.xiubin.mytest_one.dao;
+package com.xiubin.mytestone.dao;
 
-import com.xiubin.mytest_one.dao.base.BaseDao;
-import com.xiubin.mytest_one.model.Student;
+import com.xiubin.mytestone.dao.base.BaseDao;
+import com.xiubin.mytestone.model.Student;
 import org.springframework.stereotype.Repository;
 
 /**
